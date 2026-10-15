@@ -1,16 +1,16 @@
 {
   "projects": [
     {
-      "id": "example-mod",
-      "name": "Example Mod",
+      "id": "cheater-utils",
+      "name": "Cheater Utils",
       "category": "mods",
-      "summary": "A sample entry. Replace it with your first real project.",
-      "description": "This is the long description. Explain what the project does and how to install it.\n\nBlank lines start a new paragraph.",
+      "summary": "A client-side Fabric mod with ESP, auto sprint, stun slam and more, all with adjustable settings.",
+      "description": "Cheater Utils is a client-side Fabric mod with a collection of PvP and movement helpers, including ESP, auto sprint and stun slam. Every feature has its own customizable settings.\n\nPress Right Shift to open the menu. To change that key, find the Toolbar layout toggle setting and rebind it.\n\nKnown issue: some versions of Fabric Loader cause problems with this mod. A fix is planned.\n\nMany servers ban mods like this. Check the server rules before using it online.",
       "version": "1.0.0",
       "minecraft": ["1.21.11"],
       "platform": "Fabric",
       "updated": "2026-10-15",
-      "download": "https://github.com/Spread33/YOUR-REPO/releases/download/v1.0.0/example-mod-1.0.0.jar",
+      "download": "https://github.com/Spread33/minecraft-downloads/releases/download/v1.0.0/Spreadmod-1.0-SNAPSHOT.jar",
       "screenshots": [],
       "changelog": [
         {"version": "1.0.0", "date": "2026-10-15", "notes": ["First release"]}
