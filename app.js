@@ -167,6 +167,31 @@ function browse(main, all) {
   renderResults();
 }
 
+function openScreenshot(src, alt) {
+  let dialog = document.getElementById("screenshot-viewer");
+  if (!dialog) {
+    dialog = h("dialog", {id: "screenshot-viewer", class: "screenshot-viewer", "aria-label": "Screenshot viewer"});
+    const close = h("button", {class: "viewer-close", type: "button", "aria-label": "Close screenshot", text: "×"});
+    const image = h("img", {class: "viewer-image", alt: ""});
+    close.addEventListener("click", () => dialog.close());
+    dialog.addEventListener("click", event => {
+      if (event.target === dialog) dialog.close();
+    });
+    dialog.addEventListener("close", () => {
+      image.removeAttribute("src");
+    });
+    dialog.addEventListener("keydown", event => {
+      if (event.key === "Escape") dialog.close();
+    });
+    dialog.append(close, image);
+    document.body.append(dialog);
+  }
+  const image = dialog.querySelector(".viewer-image");
+  image.src = src;
+  image.alt = alt;
+  if (!dialog.open) dialog.showModal();
+}
+
 function project(main, all) {
   const p = all.find(x => x.id === params.get("id"));
   if (!p) {
@@ -192,9 +217,25 @@ function project(main, all) {
   );
 
   if ((p.screenshots || []).length) {
-    main.append(h("h2", {text: "Screenshots"}), h("div", {class: "shots"},
-      p.screenshots.map((s, i) => h("img", {src: s, alt: p.name + " screenshot " + (i + 1), loading: "lazy"}))
-    ));
+    const gallery = h("div", {class: "screenshot-gallery"},
+      p.screenshots.map((src, i) => {
+        const thumb = h("button", {
+          class: "screenshot-thumb",
+          type: "button",
+          "aria-label": "Open screenshot " + (i + 1) + " for " + p.name
+        },
+          h("img", {src, alt: "", loading: "lazy"}),
+          h("span", {text: "Image " + (i + 1)})
+        );
+        thumb.addEventListener("click", () => openScreenshot(src, p.name + " screenshot " + (i + 1)));
+        return thumb;
+      })
+    );
+    main.append(
+      h("h2", {text: "Screenshots"}),
+      h("p", {class: "screenshot-help", text: "Select an image to view it larger."}),
+      gallery
+    );
   }
   if ((p.changelog || []).length) {
     main.append(h("h2", {text: "Changelog"}), h("div", {class: "log"},
