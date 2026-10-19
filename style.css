@@ -44,8 +44,17 @@ h3,p{overflow-wrap:anywhere}
 .results-count{color:var(--muted);font-size:.9rem;margin:18px 0 12px}
 .btn{display:inline-block;background:var(--accent);color:var(--ink);font-weight:650;padding:10px 20px;border-radius:6px;margin:12px 0}
 .btn:hover{text-decoration:none;filter:brightness(1.08)}
-.shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px}
-.shots img{width:100%;border-radius:6px;border:1px solid var(--line);display:block}
+.card-image,.card-placeholder{max-height:150px}
+.screenshot-help{color:var(--muted);font-size:.9rem;margin:-6px 0 12px}
+.screenshot-gallery{display:flex;flex-wrap:wrap;gap:12px}
+.screenshot-thumb{display:flex;flex-direction:column;gap:6px;width:clamp(130px,22vw,190px);padding:7px;text-align:left;background:var(--panel);border:1px solid var(--line);border-radius:8px;color:var(--muted);font:inherit;font-size:.82rem;cursor:pointer}
+.screenshot-thumb:hover{border-color:var(--accent);color:var(--text);background:var(--panel-hover)}
+.screenshot-thumb img{display:block;width:100%;height:92px;object-fit:cover;border-radius:4px;background:var(--bg)}
+.screenshot-viewer{position:fixed;max-width:min(94vw,1200px);max-height:90vh;width:max-content;padding:42px 12px 12px;background:#11151b;border:1px solid var(--line);border-radius:10px;overflow:visible}
+.screenshot-viewer::backdrop{background:rgba(4,7,12,.84);backdrop-filter:blur(3px)}
+.viewer-image{display:block;max-width:calc(94vw - 24px);max-height:calc(86vh - 54px);width:auto;height:auto;object-fit:contain;border-radius:5px}
+.viewer-close{position:absolute;top:6px;right:8px;width:32px;height:32px;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--text);font-size:1.5rem;line-height:1;cursor:pointer}
+.viewer-close:hover{border-color:var(--accent)}
 table{width:100%;border-collapse:collapse}td{padding:8px 0;border-top:1px solid var(--line);overflow-wrap:anywhere}td:first-child{color:var(--muted);width:40%}
 .log h3{margin:22px 0 4px;font-size:1rem}.log small{color:var(--muted);font-weight:400;margin-left:8px}.log ul{margin:6px 0;padding-left:20px}
 .back{display:inline-block;margin-top:28px;color:var(--muted)}
