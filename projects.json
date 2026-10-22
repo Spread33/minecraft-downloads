@@ -7,13 +7,49 @@
       "summary": "A client-side Fabric mod with ESP, auto sprint, stun slam and more, all with adjustable settings.",
       "description": "Cheater Utils is a client-side Fabric mod with a collection of PvP and movement helpers, including ESP, auto sprint and stun slam. Every feature has its own customizable settings.\n\nPress Right Shift to open the menu. To change that key, find the Toolbar layout toggle setting and rebind it.\n\nKnown issue: some versions of Fabric Loader cause problems with this mod. A fix is planned.\n\nMany servers ban mods like this. Check the server rules before using it online.",
       "version": "1.0.0",
-      "minecraft": ["1.21.11"],
+      "minecraft": [
+        "1.21.11"
+      ],
       "platform": "Fabric",
       "updated": "2026-10-15",
       "download": "https://github.com/Spread33/minecraft-downloads/releases/download/v1.0.0/Spreadmod-1.0-SNAPSHOT.jar",
       "screenshots": [],
       "changelog": [
-        {"version": "1.0.0", "date": "2026-10-15", "notes": ["First release"]}
+        {
+          "version": "1.0.0",
+          "date": "2026-10-15",
+          "notes": [
+            "First release"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "custom-weapons",
+      "name": "Custom Weapons",
+      "category": "skripts",
+      "summary": "A customizable collection of special weapons with unique abilities, passive effects, cooldowns, and an inventory GUI.",
+      "description": "Adds a collection of custom Minecraft weapons with unique abilities and passive effects, including dashes, lightning strikes, lifesteal, snares, and area effects. Includes a weapon inventory GUI.\n\nRequirements:\n- Skript plugin\n- SkBee addon for Skript\n\nInstall the required plugins on your server, then place Custom_Weapons.sk in the server's plugins/Skript/scripts folder and load it with /sk reload Custom_Weapons.\n\nCompatibility note: This script uses newer Minecraft items and enchantments, including the netherite spear and Lunge enchantment. Your server version and Skript/SkBee versions must support the syntax and features used by the script. Test it on your server before using it live.",
+      "version": "1.0.0",
+      "minecraft": [
+        "1.21.11"
+      ],
+      "platform": "Paper",
+      "updated": "2026-10-21",
+      "download": "https://raw.githubusercontent.com/Spread33/minecraft-downloads/main/Custom_Weapons.sk",
+      "screenshots": [],
+      "requirements": [
+        "Skript plugin",
+        "SkBee addon"
+      ],
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-10-21",
+          "notes": [
+            "Initial release"
+          ]
+        }
       ]
     }
   ]
