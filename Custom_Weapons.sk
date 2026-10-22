@@ -1,0 +1,468 @@
+on load:
+    set {-weapon.flight_sword} to unbreakable netherite sword named "<!italic><bold><gradient:#00CED1:#1E90FF>ғʟɪɢʜᴛ sᴡᴏʀᴅ</gradient></bold>" with lore "<!italic><white>ᴀʙɪʟɪᴛʏ: <gradient:#00CED1:#1E90FF>Dash</gradient>", "<!italic><gray>» Dash forward at high speed.", "<!italic><yellow>⚡ <white>Sneak + Right Click", "<!italic><aqua>ᴄᴅ: <white>25s", "<!italic><dark_gray>cid:flight_sword"
+    enchant {-weapon.flight_sword} with sharpness 5 and sweeping edge 3 and unbreaking 3 and mending 1
+    set item flags of {-weapon.flight_sword} to hide enchantments
+
+    set {-weapon.storm_striker} to unbreakable netherite sword named "<!italic><bold><gradient:#87CEEB:#4169E1>sᴛᴏʀᴍ sᴛʀɪᴋᴇʀ</gradient></bold>" with lore "<!italic><white>ᴀʙɪʟɪᴛʏ: <gradient:#87CEEB:#4169E1>Thunder Strike</gradient>", "<!italic><gray>» 20%% chance to strike lightning.", "<!italic><yellow>⚡ <white>Passive on Hit", "<!italic><dark_gray>cid:storm_striker"
+    enchant {-weapon.storm_striker} with sharpness 4 and unbreaking 3 and mending 1
+    set item flags of {-weapon.storm_striker} to hide enchantments
+
+    set {-weapon.vampiric_fang} to unbreakable netherite sword named "<!italic><bold><gradient:#DC143C:#8B0000>ᴠᴀᴍᴘɪʀɪᴄ ғᴀɴɢ</gradient></bold>" with lore "<!italic><white>ᴀʙɪʟɪᴛʏ: <gradient:#DC143C:#8B0000>Blood Link</gradient>", "<!italic><gray>» 20%% chance to steal 2 hearts.", "<!italic><yellow>⚡ <white>Passive on Hit", "<!italic><dark_gray>cid:vampiric_fang"
+    enchant {-weapon.vampiric_fang} with sharpness 5 and unbreaking 3 and mending 1
+    set item flags of {-weapon.vampiric_fang} to hide enchantments
+
+    set {-weapon.berserkers_wrath} to unbreakable netherite sword named "<!italic><bold><gradient:#4B0082:#9400D3>ʙᴇʀsᴇʀᴋᴇʀ's ᴡʀᴀᴛʜ</gradient></bold>" with lore "<!italic><white>ᴀʙɪʟɪᴛʏ: <gradient:#4B0082:#9400D3>Adrenaline Fury</gradient>", "<!italic><gray>» Below 5 hearts: gain Str III + Spd III.", "<!italic><yellow>⚡ <white>Passive at Low Health", "<!italic><dark_gray>cid:berserkers_wrath"
+    enchant {-weapon.berserkers_wrath} with sharpness 5 and unbreaking 3 and mending 1
+    set item flags of {-weapon.berserkers_wrath} to hide enchantments
+
+    set {-weapon.dash_spear} to unbreakable netherite spear named "<!italic><bold><gradient:#228B22:#32CD32>ᴅᴀsʜ sᴘᴇᴀʀ</gradient></bold>" with lore "<!italic><white>ᴀʙɪʟɪᴛʏ: <gradient:#228B22:#32CD32>Dash</gradient>", "<!italic><gray>» Dash forward with force.", "<!italic><yellow>⚡ <white>Sneak + Left Click", "<!italic><aqua>ᴄᴅ: <white>25s", "<!italic><dark_gray>cid:dash_spear"
+    enchant {-weapon.dash_spear} with sharpness 5 and lunge 3 and unbreaking 3 and mending 1
+    set item flags of {-weapon.dash_spear} to hide enchantments
+
+    set {-weapon.snare_axe} to unbreakable netherite axe named "<!italic><bold><gradient:#20B2AA:#008B8B>sɴᴀʀᴇ ᴀxᴇ</gradient></bold>" with lore "<!italic><white>ᴀʙɪʟɪᴛʏ: <gradient:#20B2AA:#008B8B>Web Snare</gradient>", "<!italic><gray>» 30%% chance to web enemies for 4s.", "<!italic><yellow>⚡ <white>Passive on Hit", "<!italic><dark_gray>cid:snare_axe"
+    enchant {-weapon.snare_axe} with sharpness 5 and unbreaking 3 and mending 1
+    set item flags of {-weapon.snare_axe} to hide enchantments
+
+    set {-weapon.vortex_axe} to unbreakable netherite axe named "<!italic><bold><gradient:#00BFFF:#0000CD>ᴠᴏʀᴛᴇx ᴀxᴇ</gradient></bold>" with lore "<!italic><white>ᴀʙɪʟɪᴛʏ: <gradient:#00BFFF:#0000CD>Vortex Pull</gradient>", "<!italic><gray>» Blind and levitate nearby enemies.", "<!italic><yellow>⚡ <white>Sneak + Right Click", "<!italic><aqua>ʀᴀᴅɪᴜs: <white>8  <dark_gray>│  <aqua>ᴄᴅ: <white>10s", "<!italic><dark_gray>cid:vortex_axe"
+    enchant {-weapon.vortex_axe} with sharpness 5 and unbreaking 3 and mending 1
+    set item flags of {-weapon.vortex_axe} to hide enchantments
+
+    set {-weapon.barrier_reef_axe} to unbreakable netherite axe named "<!italic><bold><gradient:#48D1CC:#5F9EA0>ʙᴀʀʀɪᴇʀ ʀᴇᴇғ ᴀxᴇ</gradient></bold>" with lore "<!italic><white>ᴀʙɪʟɪᴛʏ: <gradient:#48D1CC:#5F9EA0>Coral Shield</gradient>", "<!italic><gray>» Create a protective reef dome.", "<!italic><yellow>⚡ <white>Sneak + Right Click", "<!italic><aqua>ʀᴀᴅɪᴜs: <white>5  <dark_gray>│  <aqua>ᴄᴅ: <white>35s", "<!italic><dark_gray>cid:barrier_reef_axe"
+    enchant {-weapon.barrier_reef_axe} with sharpness 5 and unbreaking 3 and mending 1
+    set item flags of {-weapon.barrier_reef_axe} to hide enchantments
+
+    set {-weapon.clearing_axe} to unbreakable netherite axe named "<!italic><bold><gradient:#40E0D0:#00CED1>ᴄʟᴇᴀʀɪɴɢ ᴀxᴇ</gradient></bold>" with lore "<!italic><white>ᴀʙɪʟɪᴛʏ: <gradient:#40E0D0:#00CED1>Cleansing Wave</gradient>", "<!italic><gray>» Clear all nearby cobwebs.", "<!italic><yellow>⚡ <white>Sneak + Right Click", "<!italic><aqua>ʀᴀᴅɪᴜs: <white>5  <dark_gray>│  <aqua>ᴄᴅ: <white>12s", "<!italic><dark_gray>cid:clearing_axe"
+    enchant {-weapon.clearing_axe} with sharpness 5 and unbreaking 3 and mending 1
+    set item flags of {-weapon.clearing_axe} to hide enchantments
+
+    set {-weapon.healing_axe} to unbreakable netherite axe named "<!italic><bold><gradient:#7FFFD4:#3CB371>ʜᴇᴀʟɪɴɢ ᴀxᴇ</gradient></bold>" with lore "<!italic><white>ᴀʙɪʟɪᴛʏ: <gradient:#7FFFD4:#3CB371>Vital Blessing</gradient>", "<!italic><gray>» Instantly heal to full health.", "<!italic><yellow>⚡ <white>Sneak + Right Click", "<!italic><aqua>ᴄᴅ: <white>35s", "<!italic><dark_gray>cid:healing_axe"
+    enchant {-weapon.healing_axe} with sharpness 5 and unbreaking 3 and mending 1
+    set item flags of {-weapon.healing_axe} to hide enchantments
+
+    set {-weapon.breeze_axe} to unbreakable netherite axe named "<!italic><bold><gradient:#F5F5F5:#A9A9A9>ʙʀᴇᴇᴢᴇ ᴀxᴇ</gradient></bold>" with lore "<!italic><white>ᴀʙɪʟɪᴛʏ: <gradient:#F5F5F5:#A9A9A9>Updraft</gradient>", "<!italic><gray>» Launch yourself straight upwards.", "<!italic><yellow>⚡ <white>Sneak + Right Click", "<!italic><aqua>ᴄᴅ: <white>25s", "<!italic><dark_gray>cid:breeze_axe"
+    enchant {-weapon.breeze_axe} with sharpness 5 and unbreaking 3 and mending 1
+    set item flags of {-weapon.breeze_axe} to hide enchantments
+
+    set {-weapon.dash_bow} to unbreakable bow named "<!italic><bold><gradient:#1E90FF:#00008B>ᴅᴀsʜ ʙᴏᴡ</gradient></bold>" with lore "<!italic><white>ᴀʙɪʟɪᴛʏ: <gradient:#1E90FF:#00008B>Dash</gradient>", "<!italic><gray>» Shoot an arrow to propel forward.", "<!italic><yellow>⚡ <white>Shoot Bow", "<!italic><aqua>ᴄᴅ: <white>20s", "<!italic><dark_gray>cid:dash_bow"
+    enchant {-weapon.dash_bow} with power 5 and unbreaking 3 and infinity 1 and mending 1
+    set item flags of {-weapon.dash_bow} to hide enchantments
+
+    set {-weapon.gale_force_bow} to unbreakable bow named "<!italic><bold><gradient:#87CEFA:#4682B4>ɢᴀʟᴇ ғᴏʀᴄᴇ ʙᴏᴡ</gradient></bold>" with lore "<!italic><white>ᴀʙɪʟɪᴛʏ: <gradient:#87CEFA:#4682B4>Gale Force</gradient>", "<!italic><gray>» Arrows knock enemies back.", "<!italic><yellow>⚡ <white>Passive", "<!italic><dark_gray>cid:gale_force_bow"
+    enchant {-weapon.gale_force_bow} with power 5 and punch 2 and unbreaking 3 and infinity 1 and mending 1
+    set item flags of {-weapon.gale_force_bow} to hide enchantments
+
+    set {-weapon.dash_mace} to unbreakable mace named "<!italic><bold><gradient:#00CED1:#006994>ᴅᴀsʜ ᴍᴀᴄᴇ</gradient></bold>" with lore "<!italic><white>ᴀʙɪʟɪᴛʏ: <gradient:#00CED1:#006994>Dash</gradient>", "<!italic><gray>» Dash forward with force.", "<!italic><yellow>⚡ <white>Sneak + Right Click", "<!italic><aqua>ᴄᴅ: <white>25s", "<!italic><dark_gray>cid:dash_mace"
+    enchant {-weapon.dash_mace} with wind burst 2 and density 4 and unbreaking 3 and mending 1
+    set item flags of {-weapon.dash_mace} to hide enchantments
+
+    set {-weapon.standard_mace} to unbreakable mace named "<!italic><bold><gradient:#5F9EA0:#2F4F4F>sᴛᴀɴᴅᴀʀᴅ ᴍᴀᴄᴇ</gradient></bold>" with lore "<!italic><white>ᴛʏᴘᴇ: <gradient:#5F9EA0:#2F4F4F>Standard Weapon</gradient>", "<!italic><gray>» A reliable heavy mace.", "<!italic><dark_gray>cid:standard_mace"
+    enchant {-weapon.standard_mace} with wind burst 2 and density 5 and unbreaking 3 and mending 1
+    set item flags of {-weapon.standard_mace} to hide enchantments
+
+    set {-weapon.double_wave_mace} to unbreakable mace named "<!italic><bold><gradient:#00BFFF:#1E90FF>ᴅᴏᴜʙʟᴇ ᴡᴀᴠᴇ ᴍᴀᴄᴇ</gradient></bold>" with lore "<!italic><white>ᴀʙɪʟɪᴛʏ: <gradient:#00BFFF:#1E90FF>Dash</gradient>", "<!italic><gray>» Dash forward (2 charges).", "<!italic><yellow>⚡ <white>Sneak + Right Click", "<!italic><aqua>ᴄʜᴀʀɢᴇs: <white>2  <dark_gray>│  <aqua>ʀᴇᴄʜᴀʀɢᴇ: <white>25s", "<!italic><dark_gray>cid:double_wave_mace"
+    enchant {-weapon.double_wave_mace} with wind burst 2 and density 4 and unbreaking 3 and mending 1
+    set item flags of {-weapon.double_wave_mace} to hide enchantments
+
+    set {-weapon.shockwave_hammer} to unbreakable mace named "<!italic><bold><gradient:#00FFFF:#008B8B>sʜᴏᴄᴋᴡᴀᴠᴇ ʜᴀᴍᴍᴇʀ</gradient></bold>" with lore "<!italic><white>ᴀʙɪʟɪᴛʏ: <gradient:#00FFFF:#008B8B>Impact Blast</gradient>", "<!italic><gray>» Blast nearby enemies away.", "<!italic><yellow>⚡ <white>Sneak + Right Click", "<!italic><aqua>ʀᴀᴅɪᴜs: <white>5  <dark_gray>│  <aqua>ᴄᴅ: <white>15s", "<!italic><dark_gray>cid:shockwave_hammer"
+    enchant {-weapon.shockwave_hammer} with wind burst 2 and density 4 and unbreaking 3 and mending 1
+    set item flags of {-weapon.shockwave_hammer} to hide enchantments
+
+function ffa_weapongui(p: player):
+    set {_gui} to new chest inventory with 6 rows named "<!italic><bold><gradient:#00CED1:#1E90FF>ᴡᴇᴀᴘᴏɴs ɪɴᴠᴇɴᴛᴏʀʏ</gradient></bold>"
+    set {_filler} to cyan stained glass pane named "<!italic><dark_aqua> "
+    loop integers from 0 to 53:
+        set slot loop-value of {_gui} to {_filler}
+    
+    set slot 10 of {_gui} to {-weapon.flight_sword}
+    set slot 11 of {_gui} to {-weapon.storm_striker}
+    set slot 12 of {_gui} to {-weapon.vampiric_fang}
+    set slot 13 of {_gui} to {-weapon.berserkers_wrath}
+    set slot 14 of {_gui} to {-weapon.dash_spear}
+
+    set slot 19 of {_gui} to {-weapon.snare_axe}
+    set slot 20 of {_gui} to {-weapon.vortex_axe}
+    set slot 21 of {_gui} to {-weapon.barrier_reef_axe}
+    set slot 22 of {_gui} to {-weapon.clearing_axe}
+    set slot 23 of {_gui} to {-weapon.healing_axe}
+    set slot 24 of {_gui} to {-weapon.breeze_axe}
+
+    set slot 28 of {_gui} to {-weapon.dash_bow}
+    set slot 29 of {_gui} to {-weapon.gale_force_bow}
+
+    set slot 37 of {_gui} to {-weapon.standard_mace}
+    set slot 38 of {_gui} to {-weapon.dash_mace}
+    set slot 39 of {_gui} to {-weapon.double_wave_mace}
+    set slot 40 of {_gui} to {-weapon.shockwave_hammer}
+
+    open {_gui} to {_p}
+
+command /tidegui:
+    permission: op
+    trigger:
+        ffa_weapongui(player)
+        play sound "block.beacon.activate" with volume 0.5 and pitch 1.5 to player
+
+function ffa_cooldown(p: player):
+    set {_uuid} to {_p}'s uuid
+
+    if {ffa.cd::%{_uuid}%::flightSword} > 0:
+        subtract 1 from {ffa.cd::%{_uuid}%::flightSword}
+    else:
+        set {ffa.cd::%{_uuid}%::flightSword} to 0
+
+    if {ffa.cd::%{_uuid}%::stormStriker} > 0:
+        subtract 1 from {ffa.cd::%{_uuid}%::stormStriker}
+    else:
+        set {ffa.cd::%{_uuid}%::stormStriker} to 0
+
+    if {ffa.cd::%{_uuid}%::snareAxe} > 0:
+        subtract 1 from {ffa.cd::%{_uuid}%::snareAxe}
+    else:
+        set {ffa.cd::%{_uuid}%::snareAxe} to 0
+
+    if {ffa.cd::%{_uuid}%::vortexAxe} > 0:
+        subtract 1 from {ffa.cd::%{_uuid}%::vortexAxe}
+    else:
+        set {ffa.cd::%{_uuid}%::vortexAxe} to 0
+
+    if {ffa.cd::%{_uuid}%::barrierReefAxe} > 0:
+        subtract 1 from {ffa.cd::%{_uuid}%::barrierReefAxe}
+    else:
+        set {ffa.cd::%{_uuid}%::barrierReefAxe} to 0
+
+    if {ffa.cd::%{_uuid}%::dashBow} > 0:
+        subtract 1 from {ffa.cd::%{_uuid}%::dashBow}
+    else:
+        set {ffa.cd::%{_uuid}%::dashBow} to 0
+
+    if {ffa.cd::%{_uuid}%::dashMace} > 0:
+        subtract 1 from {ffa.cd::%{_uuid}%::dashMace}
+    else:
+        set {ffa.cd::%{_uuid}%::dashMace} to 0
+
+    if {ffa.cd::%{_uuid}%::clearingAxe} > 0:
+        subtract 1 from {ffa.cd::%{_uuid}%::clearingAxe}
+    else:
+        set {ffa.cd::%{_uuid}%::clearingAxe} to 0
+
+    if {ffa.cd::%{_uuid}%::healingAxe} > 0:
+        subtract 1 from {ffa.cd::%{_uuid}%::healingAxe}
+    else:
+        set {ffa.cd::%{_uuid}%::healingAxe} to 0
+
+    if {ffa.cd::%{_uuid}%::breezeAxe} > 0:
+        subtract 1 from {ffa.cd::%{_uuid}%::breezeAxe}
+    else:
+        set {ffa.cd::%{_uuid}%::breezeAxe} to 0
+
+    if {ffa.cd::%{_uuid}%::shockwaveHammer} > 0:
+        subtract 1 from {ffa.cd::%{_uuid}%::shockwaveHammer}
+    else:
+        set {ffa.cd::%{_uuid}%::shockwaveHammer} to 0
+
+    if {ffa.cd::%{_uuid}%::dashSpear} > 0:
+        subtract 1 from {ffa.cd::%{_uuid}%::dashSpear}
+    else:
+        set {ffa.cd::%{_uuid}%::dashSpear} to 0
+
+on inventory click:
+    if name of event-inventory is "<!italic><bold><gradient:#00CED1:#1E90FF>ᴡᴇᴀᴘᴏɴs ɪɴᴠᴇɴᴛᴏʀʏ</gradient></bold>":
+        cancel event
+        set {_item} to event-slot
+        if {_item} is cyan stained glass pane named "<!italic><dark_aqua> ":
+            stop
+        if {_item} is set:
+            give {_item} to player
+            play sound "entity.experience_orb.pickup" with volume 0.7 and pitch 1.2 to player
+            stop
+
+on click:
+    if lore of player's tool contains "cid:dash_spear":
+        if player is sneaking:
+            cancel event
+            if {ffa.cd::%player's uuid%::dashSpear} > 0:
+                set {_remaining} to {ffa.cd::%player's uuid%::dashSpear}
+                send action bar "<!italic><red>ᴄᴏᴏʟᴅᴏᴡɴ: <white>%{_remaining}%s" to player
+                play sound "block.note_block.bass" with volume 1 and pitch 0.5 to player
+                stop
+            
+            push player forward at speed 3
+            set {ffa.cd::%player's uuid%::dashSpear} to 25
+            set item cooldown of netherite spear for player to 25 seconds
+            play sound "entity.ender_dragon.flap" with volume 1 and pitch 1 to player
+            play sound "entity.trident.riptide_1" with volume 1 and pitch 1.2 to player
+            send action bar "<!italic><bold><gradient:#228B22:#32CD32>ᴅᴀsʜ!</gradient></bold>" to player
+
+on right click:
+    if player's tool is {-weapon.flight_sword}:
+        if player is sneaking:
+            if {ffa.cd::%player's uuid%::flightSword} is 0:
+                push player forward with speed 3
+                set {ffa.cd::%player's uuid%::flightSword} to 25
+                set item cooldown of netherite sword for player to 25 seconds
+                play sound "entity.player.splash.high_speed" with volume 1.2 and pitch 1.3 to player
+                play sound "entity.dolphin.swim" with volume 0.8 and pitch 1.5 to player
+                play 30 of bubble at player's location
+                play 20 of dolphin at player's location
+                send action bar "<!italic><bold><gradient:#00CED1:#1E90FF>ᴅᴀsʜ!</gradient></bold>" to player
+            else:
+                set {_remaining} to {ffa.cd::%player's uuid%::flightSword}
+                send action bar "<!italic><red>ᴄᴏᴏʟᴅᴏᴡɴ: <white>%{_remaining}%s" to player
+                play sound "block.note_block.bass" with volume 0.5 and pitch 0.5 to player
+
+    if player's tool is {-weapon.dash_mace}:
+        if player is sneaking:
+            if {ffa.cd::%player's uuid%::dashMace} is 0:
+                push player forward with speed 4
+                set {ffa.cd::%player's uuid%::dashMace} to 25
+                set item cooldown of mace for player to 25 seconds
+                play sound "entity.generic.splash" with volume 1.5 and pitch 0.8 to player
+                play sound "entity.elder_guardian.ambient" with volume 0.6 and pitch 1.5 to player
+                play 40 of bubble at player's location
+                play 30 of splash at player's location
+                send action bar "<!italic><bold><gradient:#00CED1:#006994>ᴅᴀsʜ!</gradient></bold>" to player
+            else:
+                set {_remaining} to {ffa.cd::%player's uuid%::dashMace}
+                send action bar "<!italic><red>ᴄᴏᴏʟᴅᴏᴡɴ: <white>%{_remaining}%s" to player
+                play sound "block.note_block.bass" with volume 0.5 and pitch 0.5 to player
+
+    if player's tool is {-weapon.double_wave_mace}:
+        if player is sneaking:
+            if {ffa.cd::%player's uuid%::doubleWave} is not set:
+                set {ffa.cd::%player's uuid%::doubleWave} to 0
+            if {ffa.cd::%player's uuid%::doubleWave} is 0:
+                if {ffa.doublewave.charges::%player's uuid%} is not set:
+                    set {ffa.doublewave.charges::%player's uuid%} to 2
+                if {ffa.doublewave.charges::%player's uuid%} > 0:
+                    subtract 1 from {ffa.doublewave.charges::%player's uuid%}
+                    push player forward with speed 3.5
+                    play sound "entity.player.splash" with volume 1.2 and pitch 1.1 to player
+                    play sound "item.trident.throw" with volume 0.8 and pitch 1.3 to player
+                    play 30 of bubble at player's location
+                    send action bar "<!italic><bold><gradient:#00BFFF:#1E90FF>ᴅᴀsʜ! <gray>(% {ffa.doublewave.charges::%player's uuid%} %/2)</gradient></bold>" to player
+                    if {ffa.doublewave.charges::%player's uuid%} is 0:
+                        set {ffa.cd::%player's uuid%::doubleWave} to 25
+                        set item cooldown of mace for player to 25 seconds
+                else:
+                    set {ffa.cd::%player's uuid%::doubleWave} to 25
+                    set item cooldown of mace for player to 25 seconds
+            else:
+                set {_remaining} to {ffa.cd::%player's uuid%::doubleWave}
+                send action bar "<!italic><red>ᴄᴏᴏʟᴅᴏᴡɴ: <white>%{_remaining}%s" to player
+                play sound "block.note_block.bass" with volume 0.5 and pitch 0.5 to player
+
+    if player's tool is {-weapon.breeze_axe}:
+        if player is sneaking:
+            if {ffa.cd::%player's uuid%::breezeAxe} is 0:
+                set {ffa.cd::%player's uuid%::breezeAxe} to 25
+                set item cooldown of netherite axe for player to 25 seconds
+                set velocity of player to vector(0, 2.3, 0)
+                play sound "entity.breeze.jump" with volume 1.2 and pitch 1.1 to player
+                play sound "entity.wind_charge.wind_burst" with volume 0.8 and pitch 1.3 to player
+                play 35 of gust at player's location
+                send action bar "<!italic><bold><gradient:#F5F5F5:#A9A9A9>ᴜᴘᴅʀᴀғᴛ!</gradient></bold>" to player
+            else:
+                set {_remaining} to {ffa.cd::%player's uuid%::breezeAxe}
+                send action bar "<!italic><red>ᴄᴏᴏʟᴅᴏᴡɴ: <white>%{_remaining}%s" to player
+                play sound "block.note_block.bass" with volume 0.5 and pitch 0.5 to player
+
+    if player's tool is {-weapon.vortex_axe}:
+        if player is sneaking:
+            if {ffa.cd::%player's uuid%::vortexAxe} is 0:
+                set {ffa.cd::%player's uuid%::vortexAxe} to 10
+                set item cooldown of netherite axe for player to 10 seconds
+                play sound "entity.evoker.cast_spell" with volume 1 and pitch 0.8 to player
+                play sound "entity.elder_guardian.curse" with volume 0.4 and pitch 1.2 to player
+                loop players in radius 8 around player:
+                    if loop-player is not player:
+                        apply blindness 1 to loop-player for 4 seconds
+                        apply levitation 2 to loop-player for 2 seconds
+                        play 15 of squid_ink at loop-player's location
+                play 50 of bubble at player's location
+                send action bar "<!italic><bold><gradient:#00BFFF:#0000CD>ᴠᴏʀᴛᴇx ᴘᴜʟʟ!</gradient></bold>" to player
+            else:
+                set {_remaining} to {ffa.cd::%player's uuid%::vortexAxe}
+                send action bar "<!italic><red>ᴄᴏᴏʟᴅᴏᴡɴ: <white>%{_remaining}%s" to player
+                play sound "block.note_block.bass" with volume 0.5 and pitch 0.5 to player
+
+    if player's tool is {-weapon.barrier_reef_axe}:
+        if player is sneaking:
+            if {ffa.cd::%player's uuid%::barrierReefAxe} is 0:
+                set {ffa.cd::%player's uuid%::barrierReefAxe} to 35
+                set item cooldown of netherite axe for player to 35 seconds
+                set {_center} to location of player
+                delete {-active_domes::%player's uuid%::*}
+
+                loop blocks in radius 6 around {_center}:
+                    set {_distance} to distance between location of loop-block and {_center}
+                    if {_distance} is between 4 and 5:
+                        if loop-block is air:
+                            set {_random} to random integer between 1 and 4
+                            if {_random} is 1:
+                                set loop-block to light blue stained glass
+                            else if {_random} is 2:
+                                set loop-block to light blue stained glass
+                            else if {_random} is 3:
+                                set loop-block to light blue stained glass
+                            else:
+                                set loop-block to prismarine
+                            add location of loop-block to {-active_domes::%player's uuid%::*}
+
+                play sound "block.conduit.activate" with volume 1.5 and pitch 1 to player
+                send action bar "<!italic><bold><gradient:#48D1CC:#5F9EA0>ᴄᴏʀᴀʟ sʜɪᴇʟᴅ ᴀᴄᴛɪᴠᴀᴛᴇᴅ!</gradient></bold>" to player
+                wait 7 seconds
+
+                loop {-active_domes::%player's uuid%::*}:
+                    if block at loop-value is light blue stained glass or prismarine:
+                        set block at loop-value to air
+
+                delete {-active_domes::%player's uuid%::*}
+                play sound "block.glass.break" with volume 1.2 and pitch 0.8 to player
+            else:
+                set {_remaining} to {ffa.cd::%player's uuid%::barrierReefAxe}
+                send action bar "<!italic><red>ᴄᴏᴏʟᴅᴏᴡɴ: <white>%{_remaining}%s" to player
+                play sound "block.note_block.bass" with volume 0.5 and pitch 0.5 to player
+
+    if player's tool is {-weapon.clearing_axe}:
+        if player is sneaking:
+            if {ffa.cd::%player's uuid%::clearingAxe} is 0:
+                set {ffa.cd::%player's uuid%::clearingAxe} to 12
+                set item cooldown of netherite axe for player to 12 seconds
+                play sound "item.bucket.empty" with volume 1 and pitch 1.5 to player
+                loop blocks in radius 5 around player:
+                    if loop-block is cobweb:
+                        set loop-block to air
+                        play 5 of poof at loop-block's location
+                send action bar "<!italic><bold><gradient:#40E0D0:#00CED1>ᴄʟᴇᴀɴsɪɴɢ ᴡᴀᴠᴇ!</gradient></bold>" to player
+            else:
+                set {_remaining} to {ffa.cd::%player's uuid%::clearingAxe}
+                send action bar "<!italic><red>ᴄᴏᴏʟᴅᴏᴡɴ: <white>%{_remaining}%s" to player
+                play sound "block.note_block.bass" with volume 0.5 and pitch 0.5 to player
+
+    if player's tool is {-weapon.healing_axe}:
+        if player is sneaking:
+            if {ffa.cd::%player's uuid%::healingAxe} is 0:
+                set {ffa.cd::%player's uuid%::healingAxe} to 35
+                set item cooldown of netherite axe for player to 35 seconds
+                heal player by 20 hearts
+                play sound "block.conduit.ambient" with volume 1.5 and pitch 1.3 to player
+                play sound "entity.player.levelup" with volume 0.6 and pitch 1.8 to player
+                play 40 of happy_villager at player's location
+                send action bar "<!italic><bold><gradient:#7FFFD4:#3CB371>ᴠɪᴛᴀʟ ʙʟᴇssɪɴɢ!</gradient></bold>" to player
+            else:
+                set {_remaining} to {ffa.cd::%player's uuid%::healingAxe}
+                send action bar "<!italic><red>ᴄᴏᴏʟᴅᴏᴡɴ: <white>%{_remaining}%s" to player
+                play sound "block.note_block.bass" with volume 0.5 and pitch 0.5 to player
+
+    if player's tool is {-weapon.shockwave_hammer}:
+        if player is sneaking:
+            if {ffa.cd::%player's uuid%::shockwaveHammer} is 0:
+                set {ffa.cd::%player's uuid%::shockwaveHammer} to 15
+                set item cooldown of mace for player to 15 seconds
+                play sound "entity.mace.smash" with volume 1.5 and pitch 0.8 to player
+                play sound "entity.wither.break_block" with volume 0.4 and pitch 1.5 to player
+                loop players in radius 5 around player:
+                    if loop-player is not player:
+                        set {_vector} to vector between player and loop-player
+                        set vector length of {_vector} to 1.8
+                        set y of {_vector} to 0.5
+                        push loop-player {_vector}
+                        send "<!italic><red>» You were blasted away by %player%!" to loop-player
+                play 45 of cloud at player's location
+                send action bar "<!italic><bold><gradient:#00FFFF:#008B8B>ɪᴍᴘᴀᴄᴛ ʙʟᴀsᴛ!</gradient></bold>" to player
+            else:
+                set {_remaining} to {ffa.cd::%player's uuid%::shockwaveHammer}
+                send action bar "<!italic><red>ᴄᴏᴏʟᴅᴏᴡɴ: <white>%{_remaining}%s" to player
+                play sound "block.note_block.bass" with volume 0.5 and pitch 0.5 to player
+
+on shoot:
+    if shooter is a player:
+        if shooter's tool is {-weapon.dash_bow}:
+            if {ffa.cd::%shooter's uuid%::dashBow} is 0:
+                set {ffa.cd::%shooter's uuid%::dashBow} to 20
+                set item cooldown of bow for shooter to 20 seconds
+                push shooter forward with speed 3
+                play sound "item.trident.riptide_1" with volume 1 and pitch 1.2 to shooter
+                play sound "entity.player.splash" with volume 0.8 and pitch 1.4 to shooter
+                play 25 of bubble at shooter's location
+                play 15 of splash at shooter's location
+                send action bar "<!italic><bold><gradient:#1E90FF:#00008B>ᴅᴀsʜ!</gradient></bold>" to shooter
+            else:
+                cancel event
+                set {_remaining} to {ffa.cd::%shooter's uuid%::dashBow}
+                send action bar "<!italic><red>ᴄᴏᴏʟᴅᴏᴡɴ: <white>%{_remaining}%s" to shooter
+                play sound "block.note_block.bass" with volume 0.5 and pitch 0.5 to shooter
+
+on damage:
+    if attacker is a player:
+        if attacker's tool is {-weapon.storm_striker}:
+            if {ffa.cd::%attacker's uuid%::stormStriker} is 0:
+                chance of 20%:
+                    strike lightning at victim
+                    set {ffa.cd::%attacker's uuid%::stormStriker} to 2
+                    play sound "entity.lightning_bolt.thunder" with volume 1 and pitch 1 to attacker
+                    play sound "entity.lightning_bolt.thunder" with volume 1 and pitch 1 to victim
+
+        if attacker's tool is {-weapon.snare_axe}:
+            chance of 30%:
+                if block at victim is air:
+                    set block at victim to cobweb
+                    play sound "entity.spider.step" with volume 1 and pitch 0.8 to attacker
+                    send "<!italic><dark_aqua>» You trapped %victim% in a snare!" to attacker
+                    send "<!italic><red>» You have been snared!" to victim
+                    wait 4 seconds
+                    if block at victim is cobweb:
+                        set block at victim to air
+
+        if attacker's tool is {-weapon.vampiric_fang}:
+            chance of 20%:
+                heal attacker by 2 hearts
+                damage victim by 2 hearts
+                play sound "entity.wither.hurt" with volume 0.5 and pitch 1.5 to victim
+                play sound "entity.player.burp" with volume 0.5 and pitch 1.2 to attacker
+                play 15 of damage_indicator at victim's location
+
+every 1 second:
+    loop all players:
+        ffa_cooldown(loop-player)
+        
+        if lore of loop-player's tool contains "cid:dash_spear":
+            if {ffa.cd::%loop-player's uuid%::dashSpear} > 0:
+                set {_remaining} to {ffa.cd::%loop-player's uuid%::dashSpear}
+                send action bar "<!italic><bold><gradient:#228B22:#32CD32>ᴅᴀsʜ sᴘᴇᴀʀ</gradient></bold> <dark_gray>| <red>ᴄᴏᴏʟᴅᴏᴡɴ: <white>%{_remaining}%s" to loop-player
+            else:
+                send action bar "<!italic><bold><gradient:#228B22:#32CD32>ᴅᴀsʜ sᴘᴇᴀʀ</gradient></bold> <dark_gray>| <green>ʀᴇᴀᴅʏ ✔" to loop-player
+
+        if {ffa.cd::%loop-player's uuid%::doubleWave} > 0:
+            subtract 1 from {ffa.cd::%loop-player's uuid%::doubleWave}
+            if {ffa.cd::%loop-player's uuid%::doubleWave} is 0:
+                set {ffa.doublewave.charges::%loop-player's uuid%} to 2
+                send action bar "<!italic><bold><gradient:#00BFFF:#1E90FF>ᴅᴏᴜʙʟᴇ ᴡᴀᴠᴇ ᴍᴀᴄᴇ ʀᴇᴄʜᴀʀɢᴇᴅ!</gradient></bold>" to loop-player
+                play sound "block.conduit.activate" with volume 0.5 and pitch 1.5 to loop-player
+        else:
+            if {ffa.cd::%loop-player's uuid%::doubleWave} is not set:
+                set {ffa.cd::%loop-player's uuid%::doubleWave} to 0
+
+        if loop-player's tool is {-weapon.berserkers_wrath}:
+            if health of loop-player <= 5:
+                if {ffa.berserk::%loop-player's uuid%} is not set:
+                    set {ffa.berserk::%loop-player's uuid%} to true
+                    apply strength 3 to loop-player for 999 days
+                    apply speed 3 to loop-player for 999 days
+                    play sound "entity.warden.heartbeat" with volume 1 and pitch 0.8 to loop-player
+                    play sound "entity.elder_guardian.curse" with volume 0.8 and pitch 0.6 to loop-player
+                    play 30 of smoke at loop-player's location
+                    play 20 of bubble at loop-player's location
+                    send action bar "<!italic><bold><gradient:#4B0082:#9400D3>ᴀᴅʀᴇɴᴀʟɪɴᴇ ғᴜʀʏ ᴀᴡᴀᴋᴇɴs!</gradient></bold>" to loop-player
+            else:
+                if {ffa.berserk::%loop-player's uuid%} is set:
+                    delete {ffa.berserk::%loop-player's uuid%}
+                    remove strength from loop-player
+                    remove speed from loop-player
+                    play sound "entity.elder_guardian.ambient" with volume 0.5 and pitch 1.2 to loop-player
+                    send action bar "<!italic><gray>ᴀᴅʀᴇɴᴀʟɪɴᴇ ғᴜʀʏ ғᴀᴅᴇs..." to loop-player
+        else:
+            if {ffa.berserk::%loop-player's uuid%} is set:
+                delete {ffa.berserk::%loop-player's uuid%}
+                remove strength from loop-player
+                remove speed from loop-player
